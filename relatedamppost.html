@@ -104,6 +104,14 @@ body ul li img {
 
 <body>
     <ul>
+        <script>
+            function getQueryVariable(r) {
+                for (var l = window.location.search.substring(1).split("&"), e = 0; e < l.length; e++) {
+                    var t = l[e].split("=");
+                    if (t[0] == r) return t[1]
+                }
+                return !1
+                
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block"
@@ -114,13 +122,6 @@ body ul li img {
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-        <script>
-            function getQueryVariable(r) {
-                for (var l = window.location.search.substring(1).split("&"), e = 0; e < l.length; e++) {
-                    var t = l[e].split("=");
-                    if (t[0] == r) return t[1]
-                }
-                return !1
             }
             function saringtags(r, l) {
                 for (var e = r.split("<"), t = 0; t < e.length; t++) - 1 != e[t].indexOf(">") && (e[t] = e[t].substring(e[t].indexOf(">") + 1, e[t].length));
